@@ -1,2 +1,2 @@
 print("hello")
-print("actualización #1")
+print("actualización #2.0 version 2.0")
