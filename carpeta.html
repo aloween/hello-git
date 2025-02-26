@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../carpeta/carpeta.css">
+    <meta name="keywords" content="">
+    <meta name="author" content="Aloween">
+    <meta name="robots" content="nosnippet">
+    <!--nosnippet funciona para que los motores de busqueda no muestren un preview en la web de nuestra pagina -->
     <title>Document</title>
  </head>
  <body>
@@ -17,8 +21,127 @@
       <h1>TITULO</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, accusantium molestiae excepturi ratione delectus deleniti laboriosam maiores esse voluptate provident doloribus deserunt, odio ea reiciendis voluptatibus. Dicta enim architecto obcaecati!</p>
     </div>
-    <div class="box"></div>
-    
-    
+    <!--AQUI ESTA LA IMAGEN ESTÁTICA-->
+    <div class="box1">
+    </div>
+
+    <div>
+      <form method="post">
+         <div>
+            <h3>Formulario</h3>
+         </div>
+         <fieldset>
+               <legend>Información Personal</legend>
+               <div>
+                  <label for="full-name">Nombre Completo</label>
+                  <input type="text" name="full-name" id="full-name" required>
+               </div>
+               <div>
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" required>
+               </div>
+               <div>
+                  <label for="telephone">Telefono</label>
+                  <input type="number" name="telephone" id="telephone" required>
+            </div>
+         </fieldset>
+         <fieldset>
+            <legend>Otra Información</legend>
+               <div>
+
+                  <label for="comentarios">Comentarios</label>
+                  <textarea id="comentarios">
+                     
+                  </textarea>
+               </div>
+
+               <div>
+                  <label for="usuario">Qué tipo de usuario eres?</label>
+                  <select id="usuario">
+                     <option value="user1">Opción 1</option>
+                     <option value="user2">Opción 2</option>
+                     <option value="user3">Opción 3</option>
+                  </select>
+               </div>
+
+               <div>
+                  <label for="reference" name="reference">Como te enteraste de nosotros</label>
+                  <input list="reference" name="reference">
+                  <datalist id="reference" name="reference">
+                     <option value="facebook"> Facebook</option>
+                     <option value="instagram">Instagram</option>
+                     <option value="tiktok">Tiktok</option>
+                  </datalist>
+                  <div class="terminos"><p>Acepto <a href="">Terminos y condiciones</a></p> <input type="checkbox"></div>
+               </div>      
+          </fieldset>
+      </form>
+    </div>
+
+    <div class="box">
+      <details>
+         <summary>Qué es lo que más te gusta</summary>
+         <ul>HTML</ul>
+         <ul>CSS</ul>
+         <ul>Javascript</ul>
+      </details>
+    </div>
+
+    <table>
+      <thead>
+         <tr>
+         <th>Labubu</th>
+         <th>Korean Guy</th>
+         <th>Angels </th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Dato 1</td>
+            <td>Dato 1</td>
+            <td> Dato 1</td>
+         </tr>
+         <tr>
+            <td>Dato 2</td>
+            <td>Dato 2</td>
+            <td>Dato 2</td>
+         </tr>
+
+         <tr>
+            <td>Dato 3</td>
+            <td>Dato 3</td>
+            <td>Dato 3</td>   
+         </tr>
+      </tbody>
+      <tfoot>
+         <tr>
+            <td>Precio</td>
+            <td colspan="2">total</td>
+         </tr>
+      </tfoot>
+    </table>
+
+    <div>
+      <video controls loop autoplay muted src="https://www.youtube.com/watch?v=ikHarpTyvIk&t=520s">
+         <track>
+         El video no se puede montrar 
+      </video>
+    </div>
+
+    <section>
+      <div>
+         <h2>Ingredientes</h2>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores velit cupiditate vel animi corporis quidem dolores autem ab iste fugiat minus tempore laboriosam corrupti odit totam esse nostrum, temporibus quam!</p>
+      </div>
+      <ul>
+         <li>Harina</li>
+         <li>Aceite</li>
+         <li> Leche</li>
+         <li>Sal</li>
+         <li>Levadura</li>
+      </ul>
+      <h2>OTRO TITTULO</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere inventore et porro officiis eveniet quaerat sint, dolore maiores doloribus. Magnam fugit quaerat nam harum nisi in alias expedita rem similique?</p>
+    </section>
  </body>
  </html>

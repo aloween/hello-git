@@ -1,35 +1,144 @@
 body{
-    background-color: aquamarine;
+    background:linear-gradient(180deg,#aaae,#aaaa);
     font-family: tahoma;
 }
 
-h1{
+h1,h3{
     letter-spacing: 10px;
-    color: red;
+    color: #dad4e6;
     margin: 0;
-    padding-top: 8px;
+    padding-top:8px;
+    margin-bottom: 7px;
 
 }
 h2{
     font-size:15px;
     font-weight: 25;
+    color: #dad4e6;
 }
+
 .box{
-    background-color: blueviolet;
+    background-color:#E9967A;
     width: 450px;
     /*  padding-bottom: 10px;*/
     text-align: center;
-    height: 300px;
     margin:auto;
-    margin-top: 10px    ;
+    margin-top: 10px;
+
 
 }
 
 p{
     text-align: center;
     padding:10px;
-    background-color: darkmagenta;
     margin: 0;
     letter-spacing: 0.5px;
     text-align: justify;
+    color: #dad4e6;
+
+}
+
+.box1{
+ width: 300px;
+ height: 450px;
+ margin: auto;
+ background-color: transparent;
+ background-image: url("https://cdn11.bigcommerce.com/s-fvv65gjhoq/images/stencil/1200x1200/products/4917/21711/cbb_1__34306.1617029568.jpg?c=2");
+ background-size: contain;
+ background-position: center;
+ background-repeat: no-repeat;
+background-attachment: fixed;
+padding: 0;
+margin-bottom: 0;
+
+
+}
+
+form{
+    background-color:#E9967A;
+    width: 400px;
+    /*  padding-bottom: 10px;*/
+    text-align: center;
+    margin:auto;
+    margin-top: 0px;
+    box-shadow: 0px 0px 10px 10px #dad4e6;
+    padding-bottom: 20px;
+}
+
+input,select,datalist{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px 5px 5px 5px;
+    border-style: none;
+    padding: 2px; background-color: antiquewhite;
+    min-width:200px;
+    resize: none;
+    
+}
+
+textarea,datalist{
+    min-height: 100px;  
+    max-width: 300px;
+    margin-top: 5px 0;
+    margin-bottom: 5px 0;
+    border-style: none;
+    padding: 2px; background-color: antiquewhite;
+    min-width:200px;
+    resize: none;
+
+}
+label,legend, ul{
+    color: #dad4e6;
+    display: block;
+}
+
+
+fieldset{
+    width: 300px;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #dad4e6;
+    margin-top: 10px;
+}
+
+details[open]{
+    border-top:1px solid #312926;
+    background-color: #aaa;
+    font-weight: bold;
+}
+
+details{
+    border: 4px solid #dad4e6;
+}
+
+summary{
+    /*border:1px solid #E9967A;*/
+    font-family: sans-serif;
+}
+
+terminos{
+    width: 300px;
+}
+
+a{
+    color: #69f;
+    text-decoration: none;
+}
+
+td,th{
+    border-bottom: 2px solid #aaa;
+    text-align: center;
+
+}
+td{
+    color:#69f;
+}
+table{
+    width: 100%;
+    border-spacing: 10px;
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid #E9967A;
+    box-shadow: 0px 0px  25px #0003;
+    margin-top: 15px;
 }
